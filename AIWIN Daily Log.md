@@ -21,7 +21,7 @@
    
       先在training set中选取一小部分当作test set，再从剩余的training set中分成K折进行交叉验证（即K-1用来训练，K折用来验证），虽然training set分成了K折但是每一折都会经历训练的过程，并且保证每一折在验证时，都能保证模型使用没有见过的数据进行验证模型效果。保存下来每一折中最优模型（即val最高的那个epoch的模型），记录下来模型大概的训练轮次，拿交叉验证中得到的经验来训练整个training set。最后用Test set来测试每折最优的模型与整个训练集得到的模型，选最优的模型即可。
    
-      <img src="/Users/kevin/Library/Application Support/typora-user-images/IMG_1858.jpg" alt="IMG_1858" style="zoom:25%;" />
+      <img src="/asset/IMG_1858.jpg" alt="IMG_1858" style="zoom:25%;" />
 
 4. 或者使用早停来确定保存最优模型参数：
    早停需要验证集，这意味着某些样本不能用于模型的训练过程，这会造成数据的浪费。为了更好地利用验证集的样本，可以在早停之后进行额外的训练。在第二轮额外的训练中，所有的训练数据都被包括在内（包括验证集)
@@ -94,7 +94,7 @@
 
    4. **形态特征**：主要是根据 P 波、Q 波、R 波、S 波和 T 波位置及幅值，判断 ECG 波形的变 形情况，主要计算 S 波和 Q 波相对 R 波的深度、ST 段斜率、QT 间期及 QRS 波群宽度等
 
-      <img src="/Users/kevin/Library/Application Support/typora-user-images/image-20211211164810092.png" alt="image-20211211164810092" style="zoom:50%;" />
+      <img src="/asset/image-20211211164810092.png" alt="image-20211211164810092" style="zoom:50%;" />
 
 9. 如何挖掘时间和空间信息？
 10. 能否构造新的特征？如果不构造新的特征，要如何从给出的特征中挖掘
