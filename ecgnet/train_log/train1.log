@@ -1,0 +1,9 @@
+[2021-12-14 23:36:39,607][main.py][line:165][INFO] start training!
+[2021-12-14 23:36:57,338][main.py][line:175][INFO] Epoch:[1/256]	 train_loss=0.33669	 val_loss=0.75422	 train_f1=0.645	 val_f1=0.332
+[2021-12-14 23:37:14,977][main.py][line:175][INFO] Epoch:[2/256]	 train_loss=0.23693	 val_loss=0.59952	 train_f1=0.760	 val_f1=0.524
+[2021-12-14 23:37:32,556][main.py][line:175][INFO] Epoch:[3/256]	 train_loss=0.20340	 val_loss=0.67871	 train_f1=0.803	 val_f1=0.502
+[2021-12-14 23:37:49,904][main.py][line:175][INFO] Epoch:[4/256]	 train_loss=0.18098	 val_loss=0.32431	 train_f1=0.848	 val_f1=0.743
+[2021-12-14 23:38:07,472][main.py][line:175][INFO] Epoch:[5/256]	 train_loss=0.17275	 val_loss=0.31970	 train_f1=0.857	 val_f1=0.741
+[2021-12-14 23:38:25,568][main.py][line:175][INFO] Epoch:[6/256]	 train_loss=0.15917	 val_loss=0.42881	 train_f1=0.872	 val_f1=0.635
+[2021-12-14 23:38:43,669][main.py][line:175][INFO] Epoch:[7/256]	 train_loss=0.15186	 val_loss=0.61207	 train_f1=0.885	 val_f1=0.595
+[2021-12-14 23:39:01,078][main.py][line:175][INFO] Epoch:[8/256]	 train_loss=0.14641	 val_loss=0.71027	 train_f1=0.881	 val_f1=0.558
